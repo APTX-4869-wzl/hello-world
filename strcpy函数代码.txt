@@ -9,6 +9,9 @@ int main() {
 远程edit
 **/
 
+/**
+本地编辑
+**/
 char* StrCpy(char* src) {
 	int length = 0;
 	 
