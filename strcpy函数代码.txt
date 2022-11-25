@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main() {
+	char* str = "hello world";
+	char* str2;
+	StrCpy(str);
+	printf(str2);
+}
+
+
+char* StrCpy(char* src) {
+	int length = 0;
+	 
+
+	char* n = (char*)malloc(sizeof(char)*length + 1);
+	free(n);
+	for (src; *src != '\0'; src++,n++) {
+		*n = *src;
+	}
+	*n = '\0';
+	return n;
+
+}
